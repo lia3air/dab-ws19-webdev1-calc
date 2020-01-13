@@ -8,6 +8,9 @@ var operand1 = arguments[0];
 var operand2 = arguments[1];
 var operator = arguments[2];
 
+operand1 = parseFloat(operand1);
+operand2 = parseFloat(operand2);
+
 console.log('Calculating:', operand1, operand2, operator);
 
 var result;
